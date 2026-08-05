@@ -21,6 +21,7 @@ struct TextIndicatorView: View {
             IndicatorView(width: 200, height: 30, percentage: percentage, color: .gray)
             Spacer()
             Slider(value: $percentage)
+                .padding()
         }
     }
 }
