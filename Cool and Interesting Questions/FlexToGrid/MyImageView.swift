@@ -18,6 +18,7 @@ struct MyImageView: View {
             .scaledToFit()
             .clipShape(RoundedRectangle(cornerRadius: 10))
             .shadow(radius: 5)
+            .blur(radius: 20)
     }
 }
 
